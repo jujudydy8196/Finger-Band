@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="7.7" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>3</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type stereotype="" type="UmlDependency" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlGeneralization" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="AbstractTextItem" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlComment" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlCommentConnector" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlConstraint" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlAssociation" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="AbstractElementGroup" />
+        <value>44</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>3</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>19</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>11</value>
+      </counter>
+    </fields>
+  </counters>
+  <management>
+    <persons>
+      <person id="Pddbb96ea99e5480ba1610b8ccd2ed8d1">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="void" tid="" name="void" description="" nullable="false" />
+      <type id="AccountManager" tid="" name="AccountManager" description="" nullable="false" />
+      <type id="Account" tid="" name="Account" description="" nullable="false" />
+      <type id="ArrayList&lt;String&gt;" tid="" name="ArrayList&lt;String&gt;" description="" nullable="false" />
+      <type id="ArrayList" tid="" name="ArrayList" description="" nullable="false" />
+    </custom-types>
+  </types>
+  <filters />
+  <items>
+    <item id="di195427825521944066" cid="C003" type="class" name="User" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/16/2014 22:46:11">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="ad5aedce2cf4c48bdabc834cea215e693387" cid="AT002" name="name" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a2469401b924b4d51a522147846aba388779" cid="AT003" name="facebookAccount" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a8d87afd703ea4cafb99879f7f0456be9563" cid="AT004" name="userIcon" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="aea11dcb47dee4f70a08deeef86225302169" cid="AT001" name="friendList" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false" multiplicity="*" />
+      </attributes>
+      <operations>
+        <operation id="oe7b9d14459d1473d95d574b9b0741615457" cid="OP006" name="getUserName" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="of0169721a1c4432e9108499e3935ae97753" cid="OP007" name="getFacebookAccount" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="od98f8966b8594fffa6a3d6c6c6434a89622" cid="OP008" name="getUserIcon" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o30f8a97e53694bd2b12884a722f4704d286" cid="OP009" name="setNickName" type="void" type-id="void" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="oadf68d1dea12441ab7d5015c7b49ab32195" cid="OP013" name="getFriendList" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+      </operations>
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+    <item id="di257249926286768687" cid="C001" type="class" name="FacebookSingleSignOn" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/14/2014 21:16:48">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="acd6fb6c5cad24d79923edba0d3e4ac8910" cid="AT005" name="accountManager" type="AccountManager" type-id="AccountManager" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a6b5dc86a6ae3421d9c780b9ae26c5e9b419" cid="AT006" name="accounts" type="Account" type-id="Account" visibility="private" abstract="false" virtual="false" static="false" multiplicity="*" />
+      </attributes>
+      <operations>
+        <operation id="o83e0b16b1eff4c0a856b0bc337c7e5d4901" cid="OP010" name="getAccounts" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o195ec48906ab4a3498af5ff0d0c489d5545" cid="OP011" name="authenticate" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="oc2e615a7d4e34190988ba00825602ea0443" cid="OP012" name="setParticipantInformation" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+      </operations>
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+    <item id="di117696583476959330" cid="CMT001" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="05/01/2015 15:57:06">
+      <stereotypes />
+      <documentation>
+        <text>
+          <styles>
+            <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <content>
+            <paragraph>
+              <p s="S1">
+                <t />
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="left" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="left" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="left" stereotype-vertical-alignment="center">
+        <background type="vertical-linear" color="#FFFFFF55" color2="#FFFFFF55" />
+        <border color="#FF000000" width="1" dash-style="Solid" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <comment>onCreate{
+create a callback manager to handle login responses
+}</comment>
+    </item>
+    <item id="di686239056771745046" cid="CN001" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddbb96ea99e5480ba1610b8ccd2ed8d1" creation-date="05/01/2015 15:57:06">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di365239130125780090" cid="CMT003" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="05/01/2015 16:03:44">
+      <stereotypes />
+      <documentation>
+        <text>
+          <styles>
+            <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <content>
+            <paragraph>
+              <p s="S1">
+                <t />
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="left" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="left" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="left" stereotype-vertical-alignment="center">
+        <background type="forward-diagonal" color="#FFFFFF2B" color2="#FFFFFF00" />
+        <border color="#FFFFA500" width="1" dash-style="Solid" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <comment>onCreate{
+Register a Callback
+}</comment>
+    </item>
+    <item id="di473231132505232795" cid="CMT002" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="05/01/2015 16:00:00">
+      <stereotypes />
+      <documentation>
+        <text>
+          <styles>
+            <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <content>
+            <paragraph>
+              <p s="S1">
+                <t />
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="left" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="left" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="left" stereotype-vertical-alignment="center">
+        <background type="vertical-linear" color="#FFFFFF2B" color2="#FFFFFF2B" />
+        <border color="#FF000000" width="1" dash-style="Solid" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <comment>onCreateView{
+customize the properties of Login button and register a callback 
+}</comment>
+    </item>
+    <item id="di909077714144790254" cid="CN002" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddbb96ea99e5480ba1610b8ccd2ed8d1" creation-date="05/01/2015 16:00:00">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di884428126129480753" cid="CN003" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddbb96ea99e5480ba1610b8ccd2ed8d1" creation-date="05/01/2015 16:03:44">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di319896116363615390" cid="C003" type="class" name="Friend" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/16/2014 22:46:11">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="ad5aedce2cf4c48bdabc834cea215e693387" cid="AT007" name="friendsName" type="ArrayList&lt;String&gt;" type-id="ArrayList&lt;String&gt;" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a2469401b924b4d51a522147846aba388779" cid="AT008" name="friendsID" type="ArrayList&lt;String&gt;" type-id="ArrayList&lt;String&gt;" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a191b4add919945279249c59154d2c36f846" cid="AT009" name="friendsPictureUrl" type="ArrayList&lt;String&gt;" type-id="ArrayList&lt;String&gt;" visibility="private" abstract="false" virtual="false" static="false" />
+      </attributes>
+      <operations>
+        <operation id="ob555553886a94789b2990b617b4b6c3b852" cid="OP014" name="getFriendsName" type="ArrayList" type-id="ArrayList" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o163e3fedad8541448d517c936420c6da853" cid="OP015" name="getFriendsID" type="ArrayList" type-id="ArrayList" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o7d2cfdeb578b4cc4abdd59dc15953ae6853" cid="OP016" name="getFriendsPictureUrl" type="ArrayList" type-id="ArrayList" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+      </operations>
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+    <item id="di630426773262064723" cid="CMT004" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="06/17/2015 18:39:36">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>loginButton.registerCallback(callbackManager, facebookCallback);</comment>
+    </item>
+    <item id="di383163649237953934" cid="CN004" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="06/17/2015 18:39:36">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di651414024373880071" cid="C003" type="class" name="User" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/16/2014 22:46:11">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="ad5aedce2cf4c48bdabc834cea215e693387" cid="AT007" name="userName" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a2469401b924b4d51a522147846aba388779" cid="AT008" name="userID" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a191b4add919945279249c59154d2c36f846" cid="AT009" name="userPictureUrl" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" static="false" />
+      </attributes>
+      <operations>
+        <operation id="ob555553886a94789b2990b617b4b6c3b852" cid="OP014" name="getFriendsName" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o163e3fedad8541448d517c936420c6da853" cid="OP015" name="getFriendsID" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o7d2cfdeb578b4cc4abdd59dc15953ae6853" cid="OP016" name="getFriendsPictureUrl" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+      </operations>
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+  </items>
+  <models>
+    <model id="p253945093967439780" name="Model 1" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>05/01/2015 15:13:45</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p603645745404118613" name="Login" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>05/01/2015 15:13:45</creation-date>
+          <change-date>05/01/2015 15:28:41</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di900799281884958340" cid="C013" type="class" name="LoginView" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/16/2014 18:19:03">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o1c9f85b86b304a2ba2a562597d5d2893606" cid="OP192" name="login" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o79f47bab1046428b81ef466eafd1bc9e473" cid="OP193" name="selectFacebookAccounts" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o0fd71f813cc84f1aa7abb95bf48aa3dc844" cid="OP194" name="getFacebookAccounts" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di461741669287152743" cid="DEP001" type="dependency" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddbb96ea99e5480ba1610b8ccd2ed8d1" creation-date="05/01/2015 15:28:37">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di998662945779013199" cid="DEP002" type="dependency" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="05/01/2015 15:28:41">
+            <stereotypes>
+              <stereotype name="create" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="新細明體" font-size="9" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di195427825521944066" iid="821a8981f0444da8a86c8debba65c25b" creation-date="11/16/2014 22:46:11" order-index="4" type="entity">
+            <layout ax="424.936" ay="486.121" awidth="343" aheight="256" x="424.936" y="486.121" width="343" height="256" angle="0" />
+            <class />
+          </item>
+          <item id="di900799281884958340" iid="3574768cb46349b9ba179cbb6bb62b1c" creation-date="11/16/2014 18:19:03" order-index="8" type="entity">
+            <layout ax="-14.06708" ay="486.121" awidth="302" aheight="175" x="-14.06708" y="486.121" width="302" height="175" angle="0" />
+            <class />
+          </item>
+          <item id="di257249926286768687" iid="0584efd4e9f749999e5a2e3dc4923ee4" creation-date="11/14/2014 21:16:48" order-index="0" type="entity">
+            <layout ax="157.929" ay="287.4563" awidth="386" aheight="144" x="157.929" y="287.4563" width="386" height="144" angle="0" />
+            <class />
+          </item>
+          <item id="di461741669287152743" iid="b3af02b866164e21bd696752f49c3b87" creation-date="05/01/2015 15:28:37" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="222" y1="486" x2="275" y2="431" start-border-pos="0.195356092705632" end-border-pos="0.674176784377024">
+              <points>
+                <point x="222" y="486" />
+                <point x="275" y="431" />
+              </points>
+            </layout>
+            <relation from="di900799281884958340" from-iid="3574768cb46349b9ba179cbb6bb62b1c" from-field="o79f47bab1046428b81ef466eafd1bc9e473" to="di257249926286768687" to-iid="0584efd4e9f749999e5a2e3dc4923ee4" />
+          </item>
+          <item id="di998662945779013199" iid="54baa015f7a44a26a920c07806a7b649" creation-date="05/01/2015 15:28:41" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="420" y1="431" x2="473" y2="486" start-border-pos="0.580150604248047" end-border-pos="0.0350463689242438">
+              <points>
+                <point x="420" y="431" />
+                <point x="473" y="486" />
+              </points>
+            </layout>
+            <relation from="di257249926286768687" from-iid="0584efd4e9f749999e5a2e3dc4923ee4" from-field="o83e0b16b1eff4c0a856b0bc337c7e5d4901" to="di195427825521944066" to-iid="821a8981f0444da8a86c8debba65c25b" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p379550477571189317" name="implement" order-index="2" overview-order-index="0" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>05/01/2015 15:39:06</creation-date>
+          <change-date>05/01/2015 16:03:44</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di954779959943238943" cid="C002" type="class" name="MainFragment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddbb96ea99e5480ba1610b8ccd2ed8d1" creation-date="05/01/2015 15:39:11">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o47d586926ac34f549818c85db53b3e70999" cid="OP004" name="onCreateView" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o9902d6e21e5e424384c72ddb4c49f6ea870" cid="OP005" name="onCreate" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di256213958480397731" cid="C002" type="class" name="Fragment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddbb96ea99e5480ba1610b8ccd2ed8d1" creation-date="05/01/2015 15:39:11">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di451965448164338905" cid="GNR001" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddbb96ea99e5480ba1610b8ccd2ed8d1" creation-date="05/01/2015 15:40:06">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di749437385151390785" cid="C002" type="class" name="MainActivity" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddbb96ea99e5480ba1610b8ccd2ed8d1" creation-date="05/01/2015 15:39:11">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o47d586926ac34f549818c85db53b3e70999" cid="OP003" name="onCreate" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di555308362730037629" cid="C002" type="class" name="FragmentActivity" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddbb96ea99e5480ba1610b8ccd2ed8d1" creation-date="05/01/2015 15:39:11">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di678997897607030723" cid="GNR001" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddbb96ea99e5480ba1610b8ccd2ed8d1" creation-date="05/01/2015 15:40:06">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di898274563942223252" cid="DEP003" type="dependency" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddbb96ea99e5480ba1610b8ccd2ed8d1" creation-date="05/01/2015 15:56:18">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di898274563942223252" iid="7fd6615d853f423ca677464b1466ccf0" creation-date="05/01/2015 15:56:18" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="388" y1="376" x2="281" y2="376" start-border-pos="0.874172185430464" end-border-pos="0.375827814569536">
+              <points>
+                <point x="388" y="376" />
+                <point x="281" y="376" />
+              </points>
+            </layout>
+            <relation from="di749437385151390785" from-iid="ae0092cd3ed946fea5969abf7918c312" to="di954779959943238943" to-iid="efd6eb245be5469682ad8a5620a9ba6f" />
+          </item>
+          <item id="di954779959943238943" iid="efd6eb245be5469682ad8a5620a9ba6f" creation-date="05/01/2015 15:39:11" order-index="0" type="entity">
+            <layout ax="123" ay="300" awidth="158" aheight="151" x="123" y="300" width="158" height="151" angle="0" />
+            <class />
+          </item>
+          <item id="di117696583476959330" iid="1d558ae8bab44fc49e4d9399ab1083be" creation-date="05/01/2015 15:57:06" order-index="3" type="entity">
+            <layout ax="646" ay="243" awidth="380" aheight="68" x="646" y="243" width="380" height="68" angle="0" />
+          </item>
+          <item id="di256213958480397731" iid="e150fb621ffe46baab70be74b45842d2" creation-date="05/01/2015 15:39:11" order-index="0" type="entity">
+            <layout ax="130" ay="115" awidth="144" aheight="128" x="130" y="115" width="144" height="128" angle="0" />
+            <class />
+          </item>
+          <item id="di686239056771745046" iid="109bda0309af4d6485e1574d78b674b4" creation-date="05/01/2015 15:57:06" order-index="4" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="709" y1="311" x2="546" y2="355" start-border-pos="0.708373220343339" end-border-pos="0.340736540737531">
+              <points>
+                <point x="709" y="311" />
+                <point x="546" y="355" />
+              </points>
+            </layout>
+            <relation from="di117696583476959330" from-iid="1d558ae8bab44fc49e4d9399ab1083be" to="di749437385151390785" to-iid="ae0092cd3ed946fea5969abf7918c312" />
+          </item>
+          <item id="di451965448164338905" iid="fea4a248170e41e9952703d5be372327" creation-date="05/01/2015 15:40:06" order-index="1" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="202" y1="300" x2="202" y2="243" start-border-pos="0.125" end-border-pos="0.625">
+              <points>
+                <point x="202" y="300" />
+                <point x="202" y="243" />
+              </points>
+            </layout>
+            <relation from="di954779959943238943" from-iid="efd6eb245be5469682ad8a5620a9ba6f" to="di256213958480397731" to-iid="e150fb621ffe46baab70be74b45842d2" />
+          </item>
+          <item id="di749437385151390785" iid="ae0092cd3ed946fea5969abf7918c312" creation-date="05/01/2015 15:39:11" order-index="0" type="entity">
+            <layout ax="388" ay="300" awidth="158" aheight="151" x="388" y="300" width="158" height="151" angle="0" />
+            <class />
+          </item>
+          <item id="di555308362730037629" iid="282e83a1b4af4fe8913ba66805a82c58" creation-date="05/01/2015 15:39:11" order-index="0" type="entity">
+            <layout ax="395" ay="115" awidth="144" aheight="128" x="395" y="115" width="144" height="128" angle="0" />
+            <class />
+          </item>
+          <item id="di473231132505232795" iid="20ae9e28d5014225b3d82acb7d8ddc32" creation-date="05/01/2015 16:00:00" order-index="5" type="entity">
+            <layout ax="130" ay="531" awidth="465" aheight="53" x="130" y="531" width="465" height="53" angle="0" />
+          </item>
+          <item id="di909077714144790254" iid="2ba64a46e2734b939baa37f738af6c53" creation-date="05/01/2015 16:00:00" order-index="6" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="338" y1="531" x2="268" y2="451" start-border-pos="0.111969748876428" end-border-pos="0.520673969123937">
+              <points>
+                <point x="338" y="531" />
+                <point x="268" y="451" />
+              </points>
+            </layout>
+            <relation from="di473231132505232795" from-iid="20ae9e28d5014225b3d82acb7d8ddc32" to="di954779959943238943" to-iid="efd6eb245be5469682ad8a5620a9ba6f" />
+          </item>
+          <item id="di365239130125780090" iid="d34eadd2587e4d21b2e6398c8b03f66e" creation-date="05/01/2015 16:03:44" order-index="7" type="entity">
+            <layout ax="-76" ay="521" awidth="145" aheight="52" x="-76" y="521" width="145" height="52" angle="0" />
+          </item>
+          <item id="di678997897607030723" iid="dc4568d92a6242619861f285d527e474" creation-date="05/01/2015 15:40:06" order-index="1" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="467" y1="300" x2="467" y2="243" start-border-pos="0.125" end-border-pos="0.625">
+              <points>
+                <point x="467" y="300" />
+                <point x="467" y="243" />
+              </points>
+            </layout>
+            <relation from="di749437385151390785" from-iid="ae0092cd3ed946fea5969abf7918c312" to="di555308362730037629" to-iid="282e83a1b4af4fe8913ba66805a82c58" />
+          </item>
+          <item id="di884428126129480753" iid="25663eedef5447d695b88f2f79b8657d" creation-date="05/01/2015 16:03:44" order-index="8" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="27" y1="521" x2="123" y2="442" start-border-pos="0.178140755357413" end-border-pos="0.765599888681576">
+              <points>
+                <point x="27" y="521" />
+                <point x="123" y="442" />
+              </points>
+            </layout>
+            <relation from="di365239130125780090" from-iid="d34eadd2587e4d21b2e6398c8b03f66e" to="di954779959943238943" to-iid="efd6eb245be5469682ad8a5620a9ba6f" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p899856661485813420" name="ClassDiagram3" order-index="3" overview-order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>06/17/2015 18:35:11</creation-date>
+          <change-date>06/18/2015 19:31:28</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di159147965107322364" cid="DEP005" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="06/18/2015 19:31:08">
+            <stereotypes>
+              <stereotype name="create" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="新細明體" font-size="9" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di996025638300896971" cid="C005" type="class" name="MainActivity(LoginView)" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="06/17/2015 18:38:59">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o74a8f677b915484c8586e6527167746f557" cid="OP017" name="onCreate" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o53c02054c6a142b98777bf3238ab59e9157" cid="OP018" name="onActivityResult" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di338983747324792325" cid="DEP005" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="06/18/2015 19:31:08">
+            <stereotypes>
+              <stereotype name="create" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="新細明體" font-size="9" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di996025638300896971" iid="84daabcd8d8d4ec7a4acd4fe7c6ef219" creation-date="06/17/2015 18:38:59" order-index="5" type="entity">
+            <layout ax="-25" ay="227.5605" awidth="150.936" aheight="141.121" x="-25" y="227.5605" width="150.936" height="141.121" angle="0" />
+            <class />
+          </item>
+          <item id="di630426773262064723" iid="b42baf44841340e088efa69a867fee63" creation-date="06/17/2015 18:39:36" order-index="7" type="entity">
+            <layout ax="-86" ay="500.6815" awidth="450.532" aheight="71" x="-86" y="500.6815" width="450.532" height="71" angle="0" />
+          </item>
+          <item id="di383163649237953934" iid="6dfd1110e078462fbe56c847152d0b18" creation-date="06/17/2015 18:39:36" order-index="8" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="126" y1="501" x2="76" y2="369" start-border-pos="0.117589738334934" end-border-pos="0.582418268693219">
+              <points>
+                <point x="126" y="501" />
+                <point x="76" y="369" />
+              </points>
+            </layout>
+            <relation from="di630426773262064723" from-iid="b42baf44841340e088efa69a867fee63" to="di996025638300896971" to-iid="84daabcd8d8d4ec7a4acd4fe7c6ef219" />
+          </item>
+          <item id="di319896116363615390" iid="07ef13c62bf940c9ba31d50c1fe95b0a" creation-date="11/16/2014 22:46:11" order-index="4" type="entity">
+            <layout ax="244.936" ay="320.6815" awidth="316" aheight="152" x="244.936" y="320.6815" width="316" height="152" angle="0" />
+            <class />
+          </item>
+          <item id="di651414024373880071" iid="c1c768a079614e16921adc4170521cbc" creation-date="11/16/2014 22:46:11" order-index="4" type="entity">
+            <layout ax="188.936" ay="85.68149" awidth="316" aheight="152" x="188.936" y="85.68149" width="316" height="152" angle="0" />
+            <class />
+          </item>
+          <item id="di159147965107322364" iid="bd665fb208a14209b58ce02e9cab9fc4" creation-date="06/18/2015 19:31:08" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="126" y1="307" x2="245" y2="345" start-border-pos="0.390729432407786" end-border-pos="0.959444296987433">
+              <points>
+                <point x="126" y="307" />
+                <point x="245" y="345" />
+              </points>
+            </layout>
+            <relation from="di996025638300896971" from-iid="84daabcd8d8d4ec7a4acd4fe7c6ef219" to="di319896116363615390" to-iid="07ef13c62bf940c9ba31d50c1fe95b0a" />
+          </item>
+          <item id="di338983747324792325" iid="5ac2c985864e4ebe99052b605efa2337" creation-date="06/18/2015 19:31:08" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="126" y1="307" x2="233" y2="238" start-border-pos="0.390729432407786" end-border-pos="0.715384797204899">
+              <points>
+                <point x="126" y="307" />
+                <point x="233" y="238" />
+              </points>
+            </layout>
+            <relation from="di996025638300896971" from-iid="84daabcd8d8d4ec7a4acd4fe7c6ef219" to="di651414024373880071" to-iid="c1c768a079614e16921adc4170521cbc" to-field="a2469401b924b4d51a522147846aba388779" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

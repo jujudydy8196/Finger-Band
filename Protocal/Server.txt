@@ -1,0 +1,71 @@
+Login
+
+receive:Login (User->FB_id,FB_name,FB_picture)
+send:Login_Response Stats
+
+	//Add to DataBase
+-------------------------------
+Session
+
+receive:Join_Session FB_id,FB_name Session_Name Session_id
+
+//if it is the creation, initiate session Manager
+//if it is join, add the SessionHandler to corresponding session manager
+send:Join_Session_Response Stats
+   
+
+receive:Session_Over Session_id
+//send all participant he will be kick
+send:Session_Over_Response Status
+
+receive:Session_id_Response Session_id
+No send:
+
+receive:Session_Quit Session_id FB_id
+//remove the SessionHandler from Session Manager
+No send:
+
+receive:Transmit_music Music
+send:Transmit_music_Receive Music   //SEND TO OTHERS EXCEPT THE SENDER
+
+receive:Transmit_message Message     //SEND TO OTHERS EXCEPT THE SENDER
+send:Transmit_message_Receive Message
+
+send:Session_id_Response Session_id
+No receive
+
+----------------------------------
+Invitation
+
+
+receive:Request_Invitation FB_id
+
+//go to database to find corresponding invitation_List
+send:Request_Invitation_Response Invitation_List->{[sessionID, sessionName, creatorID, creatorName])
+											   
+											   
+
+receive:Delete_Outdated_Invitation (FB_id Session_id)
+
+//go to database to delete corresponding Invitation
+send:Delete_Outdated_Invitation_Response Status
+
+receive:Join_Session (Session_id, FB_id)
+//go to database to delete corresponding Invitation
+send:Join_Session_Response Stats
+
+--------------------------------------------------------
+Record
+
+receive:Request_Record FB_id
+
+// Retrive Record from database
+send:Request_Record_Response Record
+
+									  
+												  
+												  
+												  
+------------------------------------
+
+

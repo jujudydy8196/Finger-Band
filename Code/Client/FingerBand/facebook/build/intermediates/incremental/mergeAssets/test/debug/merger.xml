@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<merger version="3"><dataSet config="21.0.3"><source path="D:\team4\Project\FingerBand\Code\Client\FingerBand\facebook\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\assets"/></dataSet><dataSet config="debug"><source path="D:\team4\Project\FingerBand\Code\Client\FingerBand\facebook\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="D:\team4\Project\FingerBand\Code\Client\FingerBand\facebook\src\androidTest\assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="21.0.3"><source path="C:\Users\CarsonWang\SED\team4\Project\FingerBand\Code\Client\FingerBand\facebook\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\CarsonWang\SED\team4\Project\FingerBand\Code\Client\FingerBand\facebook\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="C:\Users\CarsonWang\SED\team4\Project\FingerBand\Code\Client\FingerBand\facebook\src\androidTest\assets"/></dataSet></merger>
+>>>>>>> 331bf5e66a377acf455496b4d4dd56ef2c1af8c4

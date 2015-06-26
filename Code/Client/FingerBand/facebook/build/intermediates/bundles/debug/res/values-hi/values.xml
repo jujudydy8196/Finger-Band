@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<<<<<<< HEAD
+    <!-- From: file:/D:/team4/Project/FingerBand/Code/Client/FingerBand/facebook/res/values-hi/messenger_button_strings.xml -->
+=======
+    <!-- From: file:/C:/Users/CarsonWang/SED/team4/Project/FingerBand/Code/Client/FingerBand/facebook/res/values-hi/messenger_button_strings.xml -->
+>>>>>>> 331bf5e66a377acf455496b4d4dd56ef2c1af8c4
+    <eat-comment/>
+    <string name="messenger_send_button_text">भेजें</string>
+</resources>

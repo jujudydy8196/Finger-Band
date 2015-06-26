@@ -1,0 +1,95 @@
+﻿//FB login (Acces_token: get_friend_list)
+
+/*第一次跟Server 建立連線 以Login 為例
+  ServiceHandler loginHandler = AndroidApplication.getInstance().getLoginHandler();
+  Connector.connect(loginHandler, LOGIN_PORT_NUMBER);
+*/
+)
+send:Login (User->FB_id,FB_name,FB_picture)
+receive:Login_Response Stats
+	//create user
+	//go to Lobby(default sate:single_state)
+-------------------------------
+按下CreateSession Button後
+	
+	send:Join_Session FB_id,FB_name,Session_Name
+    receive:Join_Session Stats
+	//第一次跟Server 建立連線
+	//initiate session
+	//change Lobby state(Host_state->CreateSession Button會變成Invite Button
+									->傳送訊息Button(visible)
+									->結束Button(visible))	
+	
+按下Invite Button後	
+//update FB_FriendLists
+//choose friends
+send:Add_Invitation {FB_id,Session_id,[Friends_id],Session_Name}
+recevie:Add_Invitation_Response Status
+	
+----------------------------------
+按下Invitation Button 後
+send:Request_Invitation FB_id
+receive:Request_Invitation_Response Invitation_List->{[sessionID, sessionName, creatorID, creatorName])
+
+
+選定Invitation 後
+send:Join_Session Session_id, FB_id  (InvitationHandler/SessionHandler)
+receive:Join_Session_Response Status "OK"
+
+	//initiate Session
+	//change Lobby state(Acceptor_state->CreateSession Button會變成"離開Button"
+									   ->傳送訊息Button(visible))
+
+"OK"
+									   	
+------------------------------------------
+按下Record Button
+send:Request_Record_List FB_id
+receive: Request_RecordList_Response RecordList
+
+//go to Record Activity 									  
+												  
+												  
+												  
+------------------------------------
+Session/Invitation
+
+Session Over
+
+Invitation
+
+send:Delete_Outdated_Invitation Session_id
+receive: Delete_Outdated_Invitation_Response Status
+
+Session
+
+send:Session_Over Session_id
+receive:Session_Over_Response Status
+// disconnect the sessionHandler
+
+
+Session quit
+
+send:Session_Quit Session_id
+//quit the session
+receive:Session_Quit_Response Status
+
+
+---------------------------------
+Session
+//SEND SOUND
+send:Transmit_music Music
+receive:Transmit_music_Response Status
+
+send:Transmit_message Message
+receive:Transmit_message_Response Status
+
+//RECEIVE
+receive:Transmit_music_Receive Music
+No send:
+
+receive:Transmit_message_Receive Message
+No send:
+
+receive:Session_id_Response Session_id
+No send

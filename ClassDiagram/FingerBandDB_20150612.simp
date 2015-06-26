@@ -1,0 +1,2558 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="8.3" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>43</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>44</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlGeneralization" />
+        <value>26</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlDependency" />
+        <value>22</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlComment" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlCommentConnector" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlRealization" />
+        <value>19</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="AbstractElementGroup" />
+        <value>17</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>3</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>55</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>63</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="P8ec9dbcc7623458b84289de4d8b9ef20">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Connection" tid="" name="Connection" description="" nullable="false" />
+      <type id="void" tid="" name="void" description="" nullable="false" />
+      <type id="int" tid="" name="int" description="" nullable="false" />
+      <type id="ArrayList&lt;int&gt;" tid="" name="ArrayList&lt;int&gt;" description="" nullable="false" />
+      <type id="ArrayList&lt;Record&gt;" tid="" name="ArrayList&lt;Record&gt;" description="" nullable="false" />
+      <type id="List&lt;String&gt;" tid="" name="List&lt;String&gt;" description="" nullable="false" />
+      <type id="()" tid="" name="()" description="" nullable="false" />
+      <type id="Class:di555852204555827044" tid="" name="AbstractRetrieve" description="" nullable="false" class-ref="di555852204555827044" />
+      <type id="Class:di949738942576131353" tid="" name="AbstractCreate" description="" nullable="false" class-ref="di949738942576131353" />
+      <type id="Class:di982473628163792730" tid="" name="AbstractDelete" description="" nullable="false" class-ref="di982473628163792730" />
+      <type id="Class:di848665141296924559" tid="" name="AbstractSet" description="" nullable="false" class-ref="di848665141296924559" />
+      <type id="List&lt;RecordInfo&gt;" tid="" name="List&lt;RecordInfo&gt;" description="" nullable="false" />
+      <type id="Class:di127808811931946451" tid="" name="AbstractCheck" description="" nullable="false" class-ref="di127808811931946451" />
+      <type id="Class:di100697882945381677" tid="" name="CreateStrategy" description="" nullable="false" class-ref="di100697882945381677" />
+      <type id="UpdateStrategy" tid="" name="UpdateStrategy" description="" nullable="false" />
+      <type id="RetrieveStrategy" tid="" name="RetrieveStrategy" description="" nullable="false" />
+      <type id="DeleteStrategy" tid="" name="DeleteStrategy" description="" nullable="false" />
+      <type id="CheckStrategy" tid="" name="CheckStrategy" description="" nullable="false" />
+      <type id="Class:di616128127947230555" tid="" name="RecordData" description="" nullable="false" class-ref="di616128127947230555" />
+      <type id="Class:di554261244650731732" tid="" name="SingletonDbConnector" description="" nullable="false" class-ref="di554261244650731732" />
+      <type id="Class:di699373629435772970" tid="" name="CREATE" description="" nullable="false" class-ref="di699373629435772970" />
+      <type id="Class:di472730090987374030" tid="" name="UPDATE" description="" nullable="false" class-ref="di472730090987374030" />
+      <type id="Class:di149648569517136773" tid="" name="RETRIEVE" description="" nullable="false" class-ref="di149648569517136773" />
+      <type id="Class:di359472379661567375" tid="" name="DELETE" description="" nullable="false" class-ref="di359472379661567375" />
+      <type id="Class:di273153525668192902" tid="" name="VARIFY" description="" nullable="false" class-ref="di273153525668192902" />
+      <type id=";" tid="" name=";" description="" nullable="false" />
+    </custom-types>
+  </types>
+  <filters />
+  <items>
+    <item id="di603933798685176633" cid="CMT001" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 13:12:05">
+      <stereotypes />
+      <documentation>
+        <text>
+          <styles>
+            <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <content>
+            <paragraph>
+              <p s="S1">
+                <t />
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="left" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="left" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="left" stereotype-vertical-alignment="center">
+        <background type="vertical-linear" color="#FFFFFF00" color2="#FFFFFFFF" />
+        <border color="#FF000000" width="1" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+            <label-connector color="#FF000000" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <comment>...
+
+// 建立新 Account
+dbConnection.setWhatToCreate(new CreateAccount(FbId));
+dbConnection.create();
+// if success {return Boolean: True}
+// if error {return Boolean: False}
+
+// 建立新 Session
+dbConnection.setWhatToCreate(new CreateSession(SessionName, FbId));
+dbConnection.create();
+// if success {return int: SessionId}
+// if error {return int: 0}
+
+// 建立(加入) 新 Session Member
+dbConnection.setWhatToCreate(new CreateSessionMember(SessionId, FbId));
+dbConnection.create();
+// if success {return Boolean: True}
+// if error {return int: Boolean: False}
+
+// 修改 Session Name
+dbConnection.setWhatToUpdate(new UpdateSessionName(SessionId, RecordName));
+dbConnection.update();
+// if success {return Boolean: True}
+// if error {return Boolean: False}
+
+// 修改(初次儲存) Record
+dbConnection.setWhatToUpdate(new UpdateRecord(SessionId, RecordName, RecordData));
+dbConnection.update();
+// if success {return Boolean: True}
+// if error {return Boolean: False}
+
+// 修改 Record Name
+dbConnection.setWhatToUpdate(new UpdateRecordName(SessionId, RecordName));
+dbConnection.update();
+// if success {return Boolean: True}
+// if error {return Boolean: False}
+
+
+dbConnection.setWhatToCheck(new CheckIfAccountExist(FbId));
+cbConnection.check();
+// if success {return Boolean: True}
+// if error {return Boolean: False}
+
+//...其他</comment>
+    </item>
+    <item id="di261796399487652810" cid="CN001" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 13:12:06">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di492980378367013821" cid="DEP020" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:54:29">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di311397693473362998" cid="CMT001" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 13:12:05">
+      <stereotypes />
+      <documentation>
+        <text>
+          <styles>
+            <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <content>
+            <paragraph>
+              <p s="S1">
+                <t />
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="left" name-vertical-alignment="top" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="top" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="left" tagged-value-vertical-alignment="top" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="left" stereotype-vertical-alignment="top">
+        <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+        <border color="#FF000000" width="1" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+            <label-connector color="#FF000000" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <comment>使用說明：
+
+// 取得 database access
+DAO dao = new DAO;
+
+// 建立新 Account
+dao.setCreateStrategy(new CreateAccount(FbId));
+dao.create();
+// if success {return Boolean: True}
+// if error {return Boolean: False}
+
+// 建立新 Session
+dao.setCreateStrategy(new CreateSession(SessionName, FbId, FbName));
+dao.create();
+// if success {return int: SessionId}
+// if error {return int: 0}
+
+// 更新 Session Members (有人要加入)
+dao.setUpdateStrategy(new UpdateSessionMember(SessionId, FbId));
+dao.create();
+// if success {return Boolean: True}
+// if error {return int: Boolean: False}
+
+// 更新 Session Name
+dao.setUpdateStrategy(new UpdateSessionName(SessionId, RecordName));
+dao.update();
+// if success {return Boolean: True}
+// if error {return Boolean: False}
+
+// 更新 (初次儲存) Record
+dao.setUpdateStrategy(new UpdateRecord(SessionId, RecordName, RecordData));
+dao.update();
+// if success {return Boolean: True}
+// if error {return Boolean: False}
+
+// 讀取 Record Name
+dao.setRetrieveStrategy(new RetrieveRecordName(SessionId));
+dao.retrieve();
+// if success {return String: "some...string"}
+// if error {return String: ""}
+
+// 讀取 Record Data
+dao.setRetrieveStrategy(new RetrieveRecordData(SessionId));
+dao.retrieve();
+// if success {return String: "some...string"}
+// if error {return String: ""}
+
+// 檢查 Account 是否已存在？
+dao.setCheckStrategy(new CheckIfAccountExist(FbId));
+dao.check();
+// if success {return Boolean: True}
+// if error {return Boolean: False}
+
+//...其他</comment>
+    </item>
+    <item id="di144242939784148643" cid="CN001" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 13:12:06">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di332790270653638540" cid="DEP020" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:54:29">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di143397215148209589" cid="CMT003" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/29/2015 15:01:21">
+      <stereotypes />
+      <documentation>
+        <text>
+          <styles>
+            <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <content>
+            <paragraph>
+              <p s="S1">
+                <t />
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="left" name-vertical-alignment="top" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="top" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="left" tagged-value-vertical-alignment="top" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="left" stereotype-vertical-alignment="top">
+        <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+        <border color="#FF000000" width="1" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+            <label-connector color="#FF000000" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <comment>public class DAO {
+
+    private CREATE createStrategy;
+    private UPDATE updateStrategy;
+    private RETRIEVE retrieveStrategy;
+    private DELETE deleteStrategy;
+    private VARIFY varifyStrategy;
+
+    // 注意：建構式是空的
+    public DAO(){
+    }
+
+    public Boolean create(){
+        return this.createStrategy.createAccount();
+    }
+
+    public void setCreateStrategy(CREATE c){
+        this.createStrategy = c;
+    }
+
+    public Boolean update(){
+        return this.updateStrategy.createRecord();
+    }
+
+    public void setUpdateStrategy(UPDATE u){
+        this.createStrategy = c;
+    }
+
+    public Boolean delete(){
+        return this.deleteStrategy.deleteAccount();
+    }
+
+    public void setDeleteStrategy(DELETE d){
+        this.deleteStrategy = d;
+    }
+
+    public Boolean varify(){
+        return this.varifyStrategy.varifyAccount();
+    }
+
+    public void setVarifyStrategy(VARIFY v){
+        this.varifyStrategy = v;
+    }
+}</comment>
+    </item>
+    <item id="di997516355443342401" cid="CN003" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/29/2015 15:01:21">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di444046525529533067" cid="CMT004" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/29/2015 16:11:39">
+      <stereotypes />
+      <documentation>
+        <text>
+          <styles>
+            <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <content>
+            <paragraph>
+              <p s="S1">
+                <t />
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;8.25;B" name-horizontal-alignment="left" name-vertical-alignment="top" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;8.25;B" text-horizontal-alignment="left" text-vertical-alignment="top" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;8.25;B" tagged-value-horizontal-alignment="left" tagged-value-vertical-alignment="top" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;8.25;B" stereotype-horizontal-alignment="left" stereotype-vertical-alignment="top">
+        <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+        <border color="#FF000000" width="1" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+            <label-connector color="#FF000000" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <comment>public class CreateSession {
+
+  public int CreateSession(String SessionName, String FbId){
+   
+    try {
+      
+      // USE TRANSACTION FOR CHAINED OPERATIONS (insert into SessionTable &amp; insert into SessionMemberTable)      
+      
+      DBConnector dbConn = new DBConnector;
+      dbConn.getConnection();
+      
+      // Step 1: 新增1 個 row 於 sessionTable 中，並取得 sessionId
+      String query = "INSERT INTO SessionTable (SessionName) VALUES (?)";
+      dbConn = SingletonDbConnector.getConnection();
+      PreparedStatement pStm1 = dbConn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
+      pStm1.setString(1, SessionName);
+      pStm1.executeUpdate();
+
+      // Setp 2: 取得MySQL自動生成的 sessionId 
+      int last_inserted_sessionId = -1; 
+      ResultSet rs = pStm1.getGeneratedKeys();
+      if(rs.next()){
+          last_inserted_sessionId = rs.getInt(1);
+      }
+      
+      // Step 3: 同步新增 SessionMemberTable 一筆資料，並將其 MemberFbId 設為 isSessionCreator。
+      String query = "INSERT INTO SessionMemberTable (FbId, Sessionid, IsCreator) VALUE (?, ?, ?)";
+      PreparedStatement pStm2 = dbConn.prepareStatement(query);
+      pStm2.setString(1, FbId);
+      pStm2.setInt(2, last_inserted_sessionId);
+      pStm2.setInt(3, 1);
+      pStm2.executeUpdate();
+      
+       // 回收資源
+       rs.close()
+       pStm.close
+       dbConn.endConnection();
+       
+      // Step 4: 回傳 Session ID
+      return last_inserted_sessionId; 
+    }
+    catch (SQLException e) {
+      return 0;
+      //e.printStackTrace();
+    }
+  }
+}    
+// END OF CODE
+
+		
+		
+		
+		
+			
+			</comment>
+    </item>
+    <item id="di572394416170009069" cid="CN004" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/29/2015 16:11:39">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di152472461327070212" cid="CMT005" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="06/01/2015 10:49:58">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment />
+    </item>
+    <item id="di284606017416943724" cid="CN005" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="06/01/2015 10:49:58">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+  </items>
+  <models>
+    <model id="p833565571978980779" name="Model 1" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>05/23/2015 17:24:40</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p847530135314128734" name="ver_2" order-index="2" overview-order-index="0" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>05/29/2015 13:47:08</creation-date>
+          <change-date>06/12/2015 11:19:14</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di651406346435694510" cid="C022" type="class" name="DbConnector" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:15:22">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="a2dc5ecf6267d4e9aad41a5a5b5ef172935" cid="AT035" name="url" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a70fbf9abbe614bdb8263c699a29a64a7423" cid="AT036" name="user" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a36e14c5dd74d4309b43e0e8e2b364517642" cid="AT037" name="password" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ae0e04f95fb764143a1722716750ade3979" cid="AT038" name="driver" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o984a17a654eb4beaaff7333f86837be7756" cid="OP047" name="getConnection" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+              <operation id="o998a5feebeed44cc8ae4050f650f943f877" cid="OP062" name="endConnection" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di330045984754990072" cid="C023" type="class" name="DAO (Database Access Object)" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:16:13">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FFFF8000" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="acfd4e234f7f3467e84600087c70abb87260" cid="AT014" name="createStrategy" type="CREATE" type-id="Class:di699373629435772970" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a5fb77291033a49b4812f553500c732ef966" cid="AT016" name="updateStrategy" type="UPDATE" type-id="Class:di472730090987374030" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a4b6ad0eae1c74575909bbd3c6b9a55cf99" cid="AT013" name="retrieveStrategy" type="RETRIEVE" type-id="Class:di149648569517136773" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a7cbe1ac560ea4099a6b366609f428625480" cid="AT015" name="deleteStrategy" type="DELETE" type-id="Class:di359472379661567375" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a6b3f52ce736e408c8655b543e2799234529" cid="AT029" name="checkStrategy" type="VARIFY" type-id="Class:di273153525668192902" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o3e72ef4f4d2e4ccbb588587b45c51440312" cid="OP015" name="create" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+              <operation id="od5b58a52b21b42e6be80d75061ca009f265" cid="OP017" name="update" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+              <operation id="obc9b7decc761419a978838fb18e43d5a404" cid="OP014" name="retrieve" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+              <operation id="o7eec2a1cfc3c4394b71c33a7e49878da937" cid="OP016" name="delete" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+              <operation id="oa2288ad4484c4a7d9c06b0cd8696e364418" cid="OP026" name="check" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+              <operation id="o62e45c0b168a40b7b7a21a378165d45d152" cid="OP019" name="setCreateStrategy" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pf7c5b0e7cf404647a0fbc25631d049b5" name="CREATE" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="of62e00dbd4dd4434af4b0a063588c3ca109" cid="OP018" name="setUpdateStrategy" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pf9239ce1e04c466c91ca6cbd464eaee7" name="UPDATE" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o49ad98d0b4b3448896bad171c88b195a561" cid="OP020" name="setRetrieveStrategy" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p86e2bf7883774b28998303d7af4780cd" name="RETRIEVE" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o9886620ca1ff4c4b9927da12ade225ea610" cid="OP021" name="setDeleteStrategy" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p0ef9b7cf51274df08bfe55c1f21c7fb1" name="DELETE" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o42687259d0644780a1578bac950aaec0464" cid="OP027" name="setCheckStrategy" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pb6b962a694b4447a968f78e1bf69ea44" name="CHECK" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di235681676120380025" cid="C021" type="class" name="VarifyAccount" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:02:24">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o1795a055968644d5b3089f10ed427f8d100" cid="OP044" name="varifyAccount" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di390070932717876485" cid="REA018" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/29/2015 17:11:26">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di126051625678036683" cid="DEP007" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:28:14">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di255407779572419384" cid="DEP009" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:28:53">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di856837777550495601" cid="DEP012" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:33:57">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di910304693859703770" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di273153525668192902" cid="C029" type="class" name="VARIFY" style-class="" is-abstract="true" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:28:41">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o8231316093e04f8da15e2853bd223434481" cid="OP028" name="varify" type="" type-id="" visibility="public" abstract="true">
+                <style class="default" />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di699373629435772970" cid="C029" type="class" name="CREATE" style-class="" is-abstract="true" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:28:41">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o8231316093e04f8da15e2853bd223434481" cid="OP028" name="create" type="" type-id="" visibility="public" abstract="true">
+                <style class="default" />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di369806076198028112" cid="C043" type="class" name="Client" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="06/12/2015 11:19:14">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di475170122568126539" cid="REA001" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:30:29">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di245958256345924385" cid="REA002" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:30:34">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di172886053474565573" cid="REA003" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:30:40">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di339629114303199237" cid="C009" type="class" name="CreateSessionMember" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 11:50:20">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o05196419c43a4c238d6af3ba82877cef871" cid="OP031" name="createSessionMember" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p2e25a87d79984a1482d261b977afbb05" name="int SessionId" type="" type-id="" />
+                  <parameter id="pd88e898cc2894bf5afd3d56e5df19e79" name="String FbId" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di359472379661567375" cid="C029" type="class" name="DELETE" style-class="" is-abstract="true" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:28:41">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o8231316093e04f8da15e2853bd223434481" cid="OP028" name="delete" type="" type-id="" visibility="public" abstract="true">
+                <style class="default" />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di395122369351600651" cid="C007" type="class" name="CreateAccount" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 11:49:26">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o23f77cd2d9ca4268bf1018f5c086b3ee704" cid="OP013" name="createAccount" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p038cad94f41c4d7590dd2aa0aedc6fec" name="String FbId" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di133876385581033201" cid="C016" type="class" name="UpdateRecordData" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 11:54:41">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o1512713dd13c44ea8f03295c11f70524364" cid="OP034" name="updateRecordData" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p96f608efc35a42268a7267a616b99ebf" name="int SessionId" type="" type-id="" />
+                  <parameter id="p14cedf1a162b4e23972ddbdf6a8ec4e5" name="String RecordData" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di419359983557406618" cid="C015" type="class" name="UpdateRecord" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 11:53:34">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o8c438e5328064268958bb8d548a15186556" cid="OP035" name="updateRecord" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p8f91bc8429cd4536bff92872b5863913" name="int SessionId" type="" type-id="" />
+                  <parameter id="p8e2ab7a7f8f745ebb1c789bb1f04d61a" name="String RecordName" type="" type-id="" />
+                  <parameter id="p8d2b30816f714cc69445e569fe07dc62" name="String RecordData" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di149648569517136773" cid="C029" type="class" name="RETRIEVE" style-class="" is-abstract="true" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:28:41">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o8231316093e04f8da15e2853bd223434481" cid="OP028" name="retrieve" type="" type-id="" visibility="public" abstract="true">
+                <style class="default" />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di857404004241949817" cid="C008" type="class" name="CreateSession" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 11:49:46">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o5c3e6bd637b04bd5acd215a0481a58a5706" cid="OP029" name="createSession" type="int" type-id="int" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p76b3fcfddfa94ea290504158c2ea3a26" name="String SessionName" type="" type-id="" />
+                  <parameter id="pb012606720384c068c76ee06c6a98dc7" name="String FbId" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di557648473987975153" cid="C015" type="class" name="UpdateRecordName" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 11:53:34">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o8c438e5328064268958bb8d548a15186556" cid="OP035" name="updateRecordName" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p8f91bc8429cd4536bff92872b5863913" name="int SessionId" type="" type-id="" />
+                  <parameter id="p8e2ab7a7f8f745ebb1c789bb1f04d61a" name="String RecordName" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di303564378933072057" cid="DEP018" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:49:29">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di472730090987374030" cid="C029" type="class" name="UPDATE" style-class="" is-abstract="true" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:28:41">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o8231316093e04f8da15e2853bd223434481" cid="OP028" name="update" type="" type-id="" visibility="public" abstract="true">
+                <style class="default" />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di444363079506678895" cid="REA013" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:39:39">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di576087726833267661" cid="C002" type="class" name="RecordInfo" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/23/2015 17:42:52">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="a63f531af96024613811c9f803d19c575642" cid="AT005" name="recordName" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="af8763cbd2e91418caf8cdf71983d045f755" cid="AT007" name="sessionId" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ad6aa85421cae4a1aaab52a13dcada05165" cid="AT030" name="sessionName" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a752da977214b4ecd900bdd04ceb8ce5b785" cid="AT032" name="sessionCreatorFbId" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="aed4802fc20c540fe9f7dbf67d710ad78290" cid="AT031" name="sessionCreatorFbName" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o072afdaf275a421ebc3d4f4cdb6663ae935" cid="OP037" name="getRecordName" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+              <operation id="oe233f279e98d47fcbd8d9779059a10f629" cid="OP038" name="getSessionId" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+              <operation id="o70cc5af6908c4619a7da96917b1ca9d4336" cid="OP040" name="getSessionName" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+              <operation id="ofdcb6f574ca744188ca13f1a45287546184" cid="OP039" name="getSessionCreatorFbId" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+              <operation id="ob8c83450e8004280beb97cbfa78b7f0f106" cid="OP041" name="getSessionCreatorFbName" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di224296817856682985" cid="REA014" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:53:38">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di710747132451533032" cid="C025" type="class" name="RetreiveRecordData" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:20:02">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="oa66370f060dc47d2a111993a7b493b62930" cid="OP025" name="retreiveRecordData" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p16c030a1dd79416ba65d84dc2d89b6ad" name="String SessionId" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di645209901358499592" cid="DEP019" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:54:19">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di742577788780127238" cid="C020" type="class" name="RetrieveRecordInfoList" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:00:15">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="a769cf908648d43cca7a8e80664541581313" cid="AT033" name="recordInfoList&lt;RecordInfo&gt;" type="" type-id="" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o6bcef95cef9e4537a9248a6806346472656" cid="OP022" name="retrieveRecordInfoList" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes />
+              </operation>
+              <operation id="oac4ef5329e6e435d901da54984f9cc5b261" cid="OP045" name="getRecordInfoList" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p9858c46ae3354ae486b4b7b0805fe88c" name="String FbId" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di605150629780842205" cid="DEP010" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:29:04">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di291023222348737317" cid="C020" type="class" name="RetrieveRecordInfo" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:00:15">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o6bcef95cef9e4537a9248a6806346472656" cid="OP022" name="retrieveRecordInfo" type="" type-id="" visibility="protected">
+                <style class="default" />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di564581401921552872" cid="DEP011" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:29:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di634316516218340427" cid="C020" type="class" name="ArrayList&lt;E&gt;" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:00:15">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o6bcef95cef9e4537a9248a6806346472656" cid="OP022" name="add" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p604b16e22b1b4e4f8e7d479cf76d5a43" name="E e" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di116412986325752058" cid="REA008" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:50:09">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di768490114794260918" cid="REA009" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:50:54">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di615958992902293121" cid="REA007" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:44:27">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di326500169487194968" cid="DEP016" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:08:44">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di364562161312886197" cid="REA010" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:09:16">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di873194293185512022" cid="REA012" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:24:32">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di130202493832950218" cid="DEP008" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:28:27">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di727111509526204717" cid="C012" type="class" name="DeleteMember" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 11:51:29">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o04d92bccdb114db09dae4e5e6d002e5245" cid="OP030" name="deleteAccount" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p8dd7ad5477fa47c89b27d4f3bf111a66" name="String FbId" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di537270558538439382" cid="REA011" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:14:23">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di640853517682343352" cid="C010" type="class" name="DeleteSession" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 11:50:59">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="oe98102a382e844eeb696a205336a2504617" cid="OP032" name="deleteSession" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pc26cd6418c4f446cb23d429ac9a27735" name="int SessionId" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di935823298160860390" cid="C018" type="class" name="UpdateSessionName" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 11:55:49">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FF6AD500" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations>
+              <operation id="o52c822a3ed864d7fb0734fbbecc81c8e233" cid="OP036" name="updateSessionName" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p07a6f497c3a448bea2e497ea17a0bd5a" name="int SessionId" type="" type-id="" />
+                  <parameter id="p7bffd9cdaadb49cb93b657a5a0e58221" name="String SessionName" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di814828829369521329" cid="DEP017" type="dependency" name="Create" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:29:00">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di911986143176561799" cid="C011" type="class" name="DeleteSessionMember" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 11:51:13">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o435e690bed1b423187acc47c16febad640" cid="OP033" name="deleteSessionMember" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="paead2a2888114615b528c1964703a682" name="String MemberFbId" type="" type-id="" />
+                  <parameter id="p34e86bad779d4131af6e79db293ca166" name="int SessionId" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di909159545904009932" cid="REA004" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:42:14">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di796951930954827059" cid="DEP015" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 16:01:33">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di468490655551177216" cid="REA005" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:42:19">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di453057513326022651" cid="REA006" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 14:42:25">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di490265908350335668" cid="C011" type="class" name="DeleteRecord" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 11:51:13">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o435e690bed1b423187acc47c16febad640" cid="OP033" name="deleteRecord" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p34e86bad779d4131af6e79db293ca166" name="int SessionId" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di111191903350543010" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di707084407251424290" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di301957315709300758" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di706458434871804122" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di177336925923130616" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di391975900481595184" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di221295713620399178" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di508181349757604368" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di876768241616700833" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di636132991368994234" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di175056125243546749" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di603310673939698223" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di618148775249189793" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di439771778717644929" cid="DEP013" type="dependency" name="Use" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="05/28/2015 12:41:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di651406346435694510" iid="69e26c54fe8043119ff345a33a2ce166" creation-date="05/28/2015 12:15:22" order-index="194" type="entity">
+            <layout ax="-5.5" ay="1058" awidth="231" aheight="185" x="-5.5" y="1058" width="231" height="185" angle="0" />
+            <class />
+          </item>
+          <item id="di330045984754990072" iid="08527b1ace804c62bc65d9f65b172baa" creation-date="05/28/2015 12:16:13" order-index="195" type="entity">
+            <layout ax="-3403" ay="-581" awidth="374" aheight="304" x="-3403" y="-581" width="374" height="304" angle="0" />
+            <class />
+          </item>
+          <item id="di235681676120380025" iid="b933ec2dfd914328879aa5c0f9a9f292" creation-date="05/28/2015 12:02:24" order-index="192" type="entity">
+            <layout ax="-1886" ay="2855" awidth="756" aheight="160" x="-1886" y="2855" width="756" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di126051625678036683" iid="3bb7315394614606a42e1e353b100abd" creation-date="05/28/2015 12:28:14" order-index="207" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-3029" y1="-429" x2="-2225" y2="-429" start-border-pos="0.375" end-border-pos="0.875">
+              <points>
+                <point x="-3029" y="-429" />
+                <point x="-2225" y="-429" />
+              </points>
+            </layout>
+            <relation from="di330045984754990072" from-iid="08527b1ace804c62bc65d9f65b172baa" to="di699373629435772970" to-iid="d22f924a32b14fa7aad37bdfe5c8a2e0" />
+          </item>
+          <item id="di255407779572419384" iid="bc1f5775ce4a45fd9f7f1e7ab84c4e53" creation-date="05/28/2015 12:28:53" order-index="209" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-3029" y1="-309" x2="-2225" y2="208" start-border-pos="0.473850074567293" end-border-pos="0.945305132865906">
+              <points>
+                <point x="-3029" y="-309" />
+                <point x="-2225" y="208" />
+              </points>
+            </layout>
+            <relation from="di330045984754990072" from-iid="08527b1ace804c62bc65d9f65b172baa" to="di472730090987374030" to-iid="86ef6db8033f4d559e5c5390b2936021" />
+          </item>
+          <item id="di856837777550495601" iid="0d9a8d5378634c4fa13327e6ce0132e8" creation-date="05/28/2015 12:33:57" order-index="212" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-3996" y1="-429" x2="-3403" y2="-429" start-border-pos="0.375" end-border-pos="0.875">
+              <points>
+                <point x="-3996" y="-429" />
+                <point x="-3403" y="-429" />
+              </points>
+            </layout>
+            <relation from="di369806076198028112" from-iid="5d6ea30cfca0438b9f6e73d1d90e719c" to="di330045984754990072" to-iid="08527b1ace804c62bc65d9f65b172baa" />
+          </item>
+          <item id="di910304693859703770" iid="1c74e6df77ff4212a2eeaaee8d900b48" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1421" y1="-138" x2="1" y2="1058" start-border-pos="0.594244604712134" end-border-pos="0.00665489484221388">
+              <points>
+                <point x="-1421" y="-138" />
+                <point x="1" y="1058" />
+              </points>
+            </layout>
+            <relation from="di857404004241949817" from-iid="2f9a732896a04211b7c61a5d0cac2b7f" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di273153525668192902" iid="d0a992cf0673408985180f934c4f117d" creation-date="05/28/2015 14:28:41" order-index="217" type="entity">
+            <layout ax="-2227" ay="2855" awidth="142" aheight="160" x="-2227" y="2855" width="142" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di699373629435772970" iid="d22f924a32b14fa7aad37bdfe5c8a2e0" creation-date="05/28/2015 14:28:41" order-index="217" type="entity">
+            <layout ax="-2225" ay="-509" awidth="140" aheight="160" x="-2225" y="-509" width="140" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di311397693473362998" iid="8ddff4e69ca845fca7294e4b05467b25" creation-date="05/28/2015 13:12:05" order-index="214" type="entity">
+            <layout ax="-4359.625" ay="-167.5" awidth="587.25" aheight="853" x="-4359.625" y="-167.5" width="587.25" height="853" angle="0" />
+          </item>
+          <item id="di144242939784148643" iid="a8bda03a47654424ab4c09cddac8bec1" creation-date="05/28/2015 13:12:06" order-index="215" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-4066" y1="-168" x2="-4066" y2="-349" start-border-pos="0.125" end-border-pos="0.625">
+              <points>
+                <point x="-4066" y="-168" />
+                <point x="-4066" y="-349" />
+              </points>
+            </layout>
+            <relation from="di311397693473362998" from-iid="8ddff4e69ca845fca7294e4b05467b25" to="di369806076198028112" to-iid="5d6ea30cfca0438b9f6e73d1d90e719c" />
+          </item>
+          <item id="di475170122568126539" iid="395e8e01d8c547548ea08c434b26e6cc" creation-date="05/28/2015 14:30:29" order-index="218" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1905" y1="-429" x2="-2085" y2="-429" start-border-pos="0.875" end-border-pos="0.375">
+              <points>
+                <point x="-1905" y="-429" />
+                <point x="-2085" y="-429" />
+              </points>
+            </layout>
+            <relation from="di395122369351600651" from-iid="1b9fc33792aa43fea60c07c5940002ff" to="di699373629435772970" to-iid="d22f924a32b14fa7aad37bdfe5c8a2e0" />
+          </item>
+          <item id="di245958256345924385" iid="118d220221bd4d0eb2bf9716b3a07ef4" creation-date="05/28/2015 14:30:34" order-index="219" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1758" y1="-298" x2="-2085" y2="-406" start-border-pos="0.0472088473797458" end-border-pos="0.411115980148315">
+              <points>
+                <point x="-1758" y="-298" />
+                <point x="-2085" y="-406" />
+              </points>
+            </layout>
+            <relation from="di857404004241949817" from-iid="2f9a732896a04211b7c61a5d0cac2b7f" to="di699373629435772970" to-iid="d22f924a32b14fa7aad37bdfe5c8a2e0" />
+          </item>
+          <item id="di172886053474565573" iid="af308dd3545642bca561090760ab5c43" creation-date="05/28/2015 14:30:40" order-index="220" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1637" y1="-87" x2="-2085" y2="-383" start-border-pos="0.0861848612703105" end-border-pos="0.447232007980347">
+              <points>
+                <point x="-1637" y="-87" />
+                <point x="-2085" y="-383" />
+              </points>
+            </layout>
+            <relation from="di339629114303199237" from-iid="7478e9a937a7446a8f93505661b6c29f" to="di699373629435772970" to-iid="d22f924a32b14fa7aad37bdfe5c8a2e0" />
+          </item>
+          <item id="di339629114303199237" iid="7478e9a937a7446a8f93505661b6c29f" creation-date="05/28/2015 11:50:20" order-index="168" type="entity">
+            <layout ax="-1905" ay="-87" awidth="777" aheight="160" x="-1905" y="-87" width="777" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di395122369351600651" iid="1b9fc33792aa43fea60c07c5940002ff" creation-date="05/28/2015 11:49:26" order-index="164" type="entity">
+            <layout ax="-1905" ay="-509" awidth="777" aheight="160" x="-1905" y="-509" width="777" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di133876385581033201" iid="36612270c8d34680b2a62aff1d83b845" creation-date="05/28/2015 11:54:41" order-index="182" type="entity">
+            <layout ax="-1575" ay="809" awidth="447" aheight="160" x="-1575" y="809" width="447" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di419359983557406618" iid="fa71332ce6d34c78850d8feb772465d0" creation-date="05/28/2015 11:53:34" order-index="180" type="entity">
+            <layout ax="-1905" ay="385" awidth="777" aheight="160" x="-1905" y="385" width="777" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di149648569517136773" iid="5ec4abf3a8c0464bbf3a68b242129335" creation-date="05/28/2015 14:28:41" order-index="217" type="entity">
+            <layout ax="-2226" ay="1068" awidth="142" aheight="160" x="-2226" y="1068" width="142" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di857404004241949817" iid="2f9a732896a04211b7c61a5d0cac2b7f" creation-date="05/28/2015 11:49:46" order-index="166" type="entity">
+            <layout ax="-1905" ay="-298" awidth="777" aheight="160" x="-1905" y="-298" width="777" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di557648473987975153" iid="4dd7da0b96ad4ea98be66f97b3cfbbb2" creation-date="05/28/2015 11:53:34" order-index="180" type="entity">
+            <layout ax="-1575" ay="597" awidth="447" aheight="160" x="-1575" y="597" width="447" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di303564378933072057" iid="21bcc834ceb34793922a5b1da9360f50" creation-date="05/28/2015 16:49:29" order-index="234" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1516" y1="-138" x2="-1516" y2="-87" start-border-pos="0.624839124839125" end-border-pos="0.125160875160875">
+              <points>
+                <point x="-1516" y="-138" />
+                <point x="-1516" y="-87" />
+              </points>
+            </layout>
+            <relation from="di857404004241949817" from-iid="2f9a732896a04211b7c61a5d0cac2b7f" to="di339629114303199237" to-iid="7478e9a937a7446a8f93505661b6c29f" />
+          </item>
+          <item id="di472730090987374030" iid="86ef6db8033f4d559e5c5390b2936021" creation-date="05/28/2015 14:28:41" order-index="217" type="entity">
+            <layout ax="-2225" ay="173" awidth="140" aheight="160" x="-2225" y="173" width="140" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di576087726833267661" iid="56e069d43c834cba87b3f146fd7488bc" creation-date="05/23/2015 17:42:52" order-index="160" type="entity">
+            <layout ax="-1034" ay="1452" awidth="222" aheight="236" x="-1034" y="1452" width="222" height="236" angle="0" />
+            <class />
+          </item>
+          <item id="di224296817856682985" iid="d48b488853f74d03878ac5deda3a7169" creation-date="05/28/2015 16:53:38" order-index="235" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1757" y1="385" x2="-2085" y2="276" start-border-pos="0.0475765508114141" end-border-pos="0.41128716468811">
+              <points>
+                <point x="-1757" y="385" />
+                <point x="-2085" y="276" />
+              </points>
+            </layout>
+            <relation from="di419359983557406618" from-iid="fa71332ce6d34c78850d8feb772465d0" to="di472730090987374030" to-iid="86ef6db8033f4d559e5c5390b2936021" />
+          </item>
+          <item id="di710747132451533032" iid="488a24354ae443b084415f176dd3c7b3" creation-date="05/28/2015 12:20:02" order-index="203" type="entity">
+            <layout ax="-1898.5" ay="1068" awidth="777" aheight="160" x="-1898.5" y="1068" width="777" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di645209901358499592" iid="a2ccc6c8fb3641aa86087c0f342a9409" creation-date="05/28/2015 16:54:19" order-index="236" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1454" y1="545" x2="-1414" y2="597" start-border-pos="0.604927013893078" end-border-pos="0.0901080308611228">
+              <points>
+                <point x="-1454" y="545" />
+                <point x="-1414" y="597" />
+              </points>
+            </layout>
+            <relation from="di419359983557406618" from-iid="fa71332ce6d34c78850d8feb772465d0" to="di557648473987975153" to-iid="4dd7da0b96ad4ea98be66f97b3cfbbb2" />
+          </item>
+          <item id="di742577788780127238" iid="0fb100d087ad486bb804a207ec71dcc8" creation-date="05/28/2015 12:00:15" order-index="190" type="entity">
+            <layout ax="-1898.5" ay="1278" awidth="777" aheight="160" x="-1898.5" y="1278" width="777" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di605150629780842205" iid="200be28f17934218ad2cd615a0572018" creation-date="05/28/2015 12:29:04" order-index="210" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-3114" y1="-277" x2="-2209" y2="1068" start-border-pos="0.55664095139121" end-border-pos="0.0302399111465669">
+              <points>
+                <point x="-3114" y="-277" />
+                <point x="-2209" y="1068" />
+              </points>
+            </layout>
+            <relation from="di330045984754990072" from-iid="08527b1ace804c62bc65d9f65b172baa" to="di149648569517136773" to-iid="5ec4abf3a8c0464bbf3a68b242129335" />
+          </item>
+          <item id="di332790270653638540" iid="495011a2174f4aaf8df1e6878111506e" creation-date="05/28/2015 16:54:29" order-index="237" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1485" y1="545" x2="-1383" y2="809" start-border-pos="0.614883089004183" end-border-pos="0.107414228537472">
+              <points>
+                <point x="-1485" y="545" />
+                <point x="-1383" y="809" />
+              </points>
+            </layout>
+            <relation from="di419359983557406618" from-iid="fa71332ce6d34c78850d8feb772465d0" to="di133876385581033201" to-iid="36612270c8d34680b2a62aff1d83b845" />
+          </item>
+          <item id="di291023222348737317" iid="b0126290440b40e289abe27b2f0823db" creation-date="05/28/2015 12:00:15" order-index="190" type="entity">
+            <layout ax="-1572" ay="1490" awidth="447" aheight="160" x="-1572" y="1490" width="447" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di634316516218340427" iid="0089f511281a4ff0b03f060f5f773852" creation-date="05/28/2015 12:00:15" order-index="190" type="entity">
+            <layout ax="-1572" ay="1702" awidth="447" aheight="160" x="-1572" y="1702" width="447" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di116412986325752058" iid="93dcc72f96ab4d7c801e62f634e210f3" creation-date="05/28/2015 14:50:09" order-index="225" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1504" y1="597" x2="-2085" y2="290" start-border-pos="0.0399835573746854" end-border-pos="0.432752180099487">
+              <points>
+                <point x="-1504" y="597" />
+                <point x="-2085" y="290" />
+              </points>
+            </layout>
+            <relation from="di557648473987975153" from-iid="4dd7da0b96ad4ea98be66f97b3cfbbb2" to="di472730090987374030" to-iid="86ef6db8033f4d559e5c5390b2936021" />
+          </item>
+          <item id="di768490114794260918" iid="b55f536d807e4eabbc016ce47e95205c" creation-date="05/28/2015 14:50:54" order-index="226" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1905" y1="253" x2="-2085" y2="253" start-border-pos="0.875" end-border-pos="0.375">
+              <points>
+                <point x="-1905" y="253" />
+                <point x="-2085" y="253" />
+              </points>
+            </layout>
+            <relation from="di935823298160860390" from-iid="54614e32e9d441ec83af0bfea144a304" to="di472730090987374030" to-iid="86ef6db8033f4d559e5c5390b2936021" />
+          </item>
+          <item id="di615958992902293121" iid="d81a84a29c3e4394a5d0e1379cd5b0ef" creation-date="05/28/2015 14:44:27" order-index="224" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1453" y1="809" x2="-2085" y2="308" start-border-pos="0.0682291120490772" end-border-pos="0.461628246307373">
+              <points>
+                <point x="-1453" y="809" />
+                <point x="-2085" y="308" />
+              </points>
+            </layout>
+            <relation from="di133876385581033201" from-iid="36612270c8d34680b2a62aff1d83b845" to="di472730090987374030" to-iid="86ef6db8033f4d559e5c5390b2936021" />
+          </item>
+          <item id="di326500169487194968" iid="ddf70f8a143243a58c56de714e2a86bc" creation-date="05/28/2015 16:08:44" order-index="228" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1479" y1="1438" x2="-1379" y2="1702" start-border-pos="0.615165366782798" end-border-pos="0.108184541365178">
+              <points>
+                <point x="-1479" y="1438" />
+                <point x="-1379" y="1702" />
+              </points>
+            </layout>
+            <relation from="di742577788780127238" from-iid="0fb100d087ad486bb804a207ec71dcc8" to="di634316516218340427" to-iid="0089f511281a4ff0b03f060f5f773852" />
+          </item>
+          <item id="di364562161312886197" iid="d23c09a9056247f0b4f019a69b10e04e" creation-date="05/28/2015 16:09:16" order-index="229" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1756" y1="1278" x2="-2084" y2="1171" start-border-pos="0.0459413663454191" end-border-pos="0.411119270324707">
+              <points>
+                <point x="-1756" y="1278" />
+                <point x="-2084" y="1171" />
+              </points>
+            </layout>
+            <relation from="di742577788780127238" from-iid="0fb100d087ad486bb804a207ec71dcc8" to="di149648569517136773" to-iid="5ec4abf3a8c0464bbf3a68b242129335" />
+          </item>
+          <item id="di873194293185512022" iid="f04811bb6ac9485f87de0771f9948f52" creation-date="05/28/2015 16:24:32" order-index="231" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1898" y1="1148" x2="-2084" y2="1148" start-border-pos="0.875" end-border-pos="0.375">
+              <points>
+                <point x="-1898" y="1148" />
+                <point x="-2084" y="1148" />
+              </points>
+            </layout>
+            <relation from="di710747132451533032" from-iid="488a24354ae443b084415f176dd3c7b3" to="di149648569517136773" to-iid="5ec4abf3a8c0464bbf3a68b242129335" />
+          </item>
+          <item id="di130202493832950218" iid="5914bc05f8804b85b88d2930977b9352" creation-date="05/28/2015 12:28:27" order-index="208" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-3151" y1="-277" x2="-2190" y2="1960" start-border-pos="0.581378957167029" end-border-pos="0.0636679513113839">
+              <points>
+                <point x="-3151" y="-277" />
+                <point x="-2190" y="1960" />
+              </points>
+            </layout>
+            <relation from="di330045984754990072" from-iid="08527b1ace804c62bc65d9f65b172baa" to="di359472379661567375" to-iid="56e267a80ba542b78857ca6843e7aabe" />
+          </item>
+          <item id="di537270558538439382" iid="3020e84fd539416d8951ea2e49b0cd47" creation-date="05/28/2015 16:14:23" order-index="230" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="9,-1" auto-path="" x1="-1501" y1="1490" x2="-2084" y2="1185" start-border-pos="0.0397170918099832" end-border-pos="0.433012008666992">
+              <points>
+                <point x="-1501" y="1490" />
+                <point x="-2084" y="1185" />
+              </points>
+            </layout>
+            <relation from="di291023222348737317" from-iid="b0126290440b40e289abe27b2f0823db" to="di149648569517136773" to-iid="5ec4abf3a8c0464bbf3a68b242129335" />
+          </item>
+          <item id="di935823298160860390" iid="54614e32e9d441ec83af0bfea144a304" creation-date="05/28/2015 11:55:49" order-index="186" type="entity">
+            <layout ax="-1905" ay="173" awidth="777" aheight="160" x="-1905" y="173" width="777" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di814828829369521329" iid="14c8934ed1b84a909a659d1fa18e8ad0" creation-date="05/28/2015 16:29:00" order-index="232" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1125" y1="1570" x2="-1034" y2="1570" start-border-pos="0.375" end-border-pos="0.875">
+              <points>
+                <point x="-1125" y="1570" />
+                <point x="-1034" y="1570" />
+              </points>
+            </layout>
+            <relation from="di291023222348737317" from-iid="b0126290440b40e289abe27b2f0823db" to="di576087726833267661" to-iid="56e069d43c834cba87b3f146fd7488bc" />
+          </item>
+          <item id="di796951930954827059" iid="d31f3d5a16d9486187556c0f838e49e5" creation-date="05/28/2015 16:01:33" order-index="227" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1449" y1="1438" x2="-1409" y2="1490" start-border-pos="0.605330733565597" end-border-pos="0.0910894406721896">
+              <points>
+                <point x="-1449" y="1438" />
+                <point x="-1409" y="1490" />
+              </points>
+            </layout>
+            <relation from="di742577788780127238" from-iid="0fb100d087ad486bb804a207ec71dcc8" to="di291023222348737317" to-iid="b0126290440b40e289abe27b2f0823db" />
+          </item>
+          <item id="di359472379661567375" iid="56e267a80ba542b78857ca6843e7aabe" creation-date="05/28/2015 14:28:41" order-index="217" type="entity">
+            <layout ax="-2226" ay="1960" awidth="140" aheight="160" x="-2226" y="1960" width="140" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di444363079506678895" iid="b9fe1334822c4b9fa5b4373ea830f556" creation-date="05/28/2015 16:39:39" order-index="233" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1590" y1="2593" x2="-2086" y2="2108" start-border-pos="0.0979180714440724" end-border-pos="0.481843185424805">
+              <points>
+                <point x="-1590" y="2593" />
+                <point x="-2086" y="2108" />
+              </points>
+            </layout>
+            <relation from="di490265908350335668" from-iid="4c72b40b245745188ad8188674ebc238" to="di359472379661567375" to-iid="56e267a80ba542b78857ca6843e7aabe" />
+          </item>
+          <item id="di564581401921552872" iid="427385f4f3c243639471c0522c0dcdc7" creation-date="05/28/2015 12:29:15" order-index="211" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-3168" y1="-277" x2="-2181" y2="2855" start-border-pos="0.592984449417196" end-border-pos="0.0806197045554578">
+              <points>
+                <point x="-3168" y="-277" />
+                <point x="-2181" y="2855" />
+              </points>
+            </layout>
+            <relation from="di330045984754990072" from-iid="08527b1ace804c62bc65d9f65b172baa" to="di273153525668192902" to-iid="d0a992cf0673408985180f934c4f117d" />
+          </item>
+          <item id="di727111509526204717" iid="9f7f1ff523c04d16af1eabf1a4abba94" creation-date="05/28/2015 11:51:29" order-index="174" type="entity">
+            <layout ax="-1886" ay="1963" awidth="756" aheight="160" x="-1886" y="1963" width="756" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di640853517682343352" iid="3d744250776a492f842d95bbb7f47932" creation-date="05/28/2015 11:50:59" order-index="170" type="entity">
+            <layout ax="-1886" ay="2173" awidth="756" aheight="160" x="-1886" y="2173" width="756" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di911986143176561799" iid="8ea55a142d554229a0c4c25bbf5dbb9f" creation-date="05/28/2015 11:51:13" order-index="172" type="entity">
+            <layout ax="-1886" ay="2383" awidth="756" aheight="160" x="-1886" y="2383" width="756" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di909159545904009932" iid="d5165c77618f47db996f3034425504e5" creation-date="05/28/2015 14:42:14" order-index="221" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1886" y1="2041" x2="-2086" y2="2040" start-border-pos="0.877734375" end-border-pos="0.375506401062012">
+              <points>
+                <point x="-1886" y="2041" />
+                <point x="-2086" y="2040" />
+              </points>
+            </layout>
+            <relation from="di727111509526204717" from-iid="9f7f1ff523c04d16af1eabf1a4abba94" to="di359472379661567375" to-iid="56e267a80ba542b78857ca6843e7aabe" />
+          </item>
+          <item id="di468490655551177216" iid="dd5ee7ba0b124c358c83c29d70cc1817" creation-date="05/28/2015 14:42:19" order-index="222" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1751" y1="2173" x2="-2086" y2="2063" start-border-pos="0.0445171134181754" end-border-pos="0.410951995849609">
+              <points>
+                <point x="-1751" y="2173" />
+                <point x="-2086" y="2063" />
+              </points>
+            </layout>
+            <relation from="di640853517682343352" from-iid="3d744250776a492f842d95bbb7f47932" to="di359472379661567375" to-iid="56e267a80ba542b78857ca6843e7aabe" />
+          </item>
+          <item id="di453057513326022651" iid="bf93f9fbe4f84f28ae6871e085d36756" creation-date="05/28/2015 14:42:25" order-index="223" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1631" y1="2383" x2="-2086" y2="2086" start-border-pos="0.084473140656002" end-border-pos="0.446397399902344">
+              <points>
+                <point x="-1631" y="2383" />
+                <point x="-2086" y="2086" />
+              </points>
+            </layout>
+            <relation from="di911986143176561799" from-iid="8ea55a142d554229a0c4c25bbf5dbb9f" to="di359472379661567375" to-iid="56e267a80ba542b78857ca6843e7aabe" />
+          </item>
+          <item id="di490265908350335668" iid="4c72b40b245745188ad8188674ebc238" creation-date="05/28/2015 11:51:13" order-index="172" type="entity">
+            <layout ax="-1886" ay="2593" awidth="756" aheight="160" x="-1886" y="2593" width="756" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di143397215148209589" iid="ce69cb95a65e4ff3adc571096e498da6" creation-date="05/29/2015 15:01:21" order-index="256" type="entity">
+            <layout ax="-3655" ay="-167.5" awidth="374" aheight="667" x="-3655" y="-167.5" width="374" height="667" angle="0" />
+          </item>
+          <item id="di997516355443342401" iid="cfb1286769b54052bcd77745bd56955a" creation-date="05/29/2015 15:01:21" order-index="257" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-3327" y1="-168" x2="-3280" y2="-277" start-border-pos="0.21955798144009" end-border-pos="0.668032396285929">
+              <points>
+                <point x="-3327" y="-168" />
+                <point x="-3280" y="-277" />
+              </points>
+            </layout>
+            <relation from="di143397215148209589" from-iid="ce69cb95a65e4ff3adc571096e498da6" to="di330045984754990072" to-iid="08527b1ace804c62bc65d9f65b172baa" />
+          </item>
+          <item id="di444046525529533067" iid="603cf1115b3845cfbcf1e7410ec462fa" creation-date="05/29/2015 16:11:39" order-index="258" type="entity">
+            <layout ax="-528.5" ay="-502" awidth="787" aheight="1033" x="-528.5" y="-502" width="787" height="1033" angle="0" />
+          </item>
+          <item id="di572394416170009069" iid="ec462b305e7d44049395cbc0a2a87a04" creation-date="05/29/2015 16:11:39" order-index="259" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-528" y1="-52" x2="-1128" y2="-153" start-border-pos="0.891099158930525" end-border-pos="0.476846480369568">
+              <points>
+                <point x="-528" y="-52" />
+                <point x="-1128" y="-153" />
+              </points>
+            </layout>
+            <relation from="di444046525529533067" from-iid="603cf1115b3845cfbcf1e7410ec462fa" to="di857404004241949817" to-iid="2f9a732896a04211b7c61a5d0cac2b7f" />
+          </item>
+          <item id="di390070932717876485" iid="ba0ec349bfe94dd6b27ab83f2a7030b0" creation-date="05/29/2015 17:11:26" order-index="260" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1886" y1="2935" x2="-2085" y2="2935" start-border-pos="0.875" end-border-pos="0.375">
+              <points>
+                <point x="-1886" y="2935" />
+                <point x="-2085" y="2935" />
+              </points>
+            </layout>
+            <relation from="di235681676120380025" from-iid="b933ec2dfd914328879aa5c0f9a9f292" to="di273153525668192902" to-iid="d0a992cf0673408985180f934c4f117d" />
+          </item>
+          <item id="di111191903350543010" iid="25e686d53b8d4c35a3940a6886aadc77" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1434" y1="-349" x2="15" y2="1058" start-border-pos="0.598332939000664" end-border-pos="0.0224692181591348">
+              <points>
+                <point x="-1434" y="-349" />
+                <point x="15" y="1058" />
+              </points>
+            </layout>
+            <relation from="di395122369351600651" from-iid="1b9fc33792aa43fea60c07c5940002ff" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di707084407251424290" iid="4c06ae8ee9e1461da44d2a7a7cf26600" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1404" y1="73" x2="-6" y2="1068" start-border-pos="0.58866515092101" end-border-pos="0.986256202491554">
+              <points>
+                <point x="-1404" y="73" />
+                <point x="-6" y="1068" />
+              </points>
+            </layout>
+            <relation from="di339629114303199237" from-iid="7478e9a937a7446a8f93505661b6c29f" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di301957315709300758" iid="6227c8603d9d458985a2005ecaf56df1" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1326" y1="545" x2="-6" y2="1102" start-border-pos="0.563739437854428" end-border-pos="0.941144788587416">
+              <points>
+                <point x="-1326" y="545" />
+                <point x="-6" y="1102" />
+              </points>
+            </layout>
+            <relation from="di419359983557406618" from-iid="fa71332ce6d34c78850d8feb772465d0" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di706458434871804122" iid="97a6a79f80e34a859ea3af65216e9096" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1371" y1="333" x2="-6" y2="1087" start-border-pos="0.57817994735109" end-border-pos="0.961406645903716">
+              <points>
+                <point x="-1371" y="333" />
+                <point x="-6" y="1087" />
+              </points>
+            </layout>
+            <relation from="di935823298160860390" from-iid="54614e32e9d441ec83af0bfea144a304" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di177336925923130616" iid="1744581974844f108b60abaea93ed3b6" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1128" y1="749" x2="-6" y2="1113" start-border-pos="0.488235282897949" end-border-pos="0.925953962996199">
+              <points>
+                <point x="-1128" y="749" />
+                <point x="-6" y="1113" />
+              </points>
+            </layout>
+            <relation from="di557648473987975153" from-iid="4dd7da0b96ad4ea98be66f97b3cfbbb2" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di391975900481595184" iid="ffed97b7c223493e86772a567d4de923" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1128" y1="929" x2="-6" y2="1129" start-border-pos="0.437482929229736" end-border-pos="0.903419123469172">
+              <points>
+                <point x="-1128" y="929" />
+                <point x="-6" y="1129" />
+              </points>
+            </layout>
+            <relation from="di133876385581033201" from-iid="36612270c8d34680b2a62aff1d83b845" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di221295713620399178" iid="ff8e6bf02f6d4ca192dc6f34281409fe" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1122" y1="1148" x2="-6" y2="1150" start-border-pos="0.375750350952148" end-border-pos="0.875867524018159">
+              <points>
+                <point x="-1122" y="1148" />
+                <point x="-6" y="1150" />
+              </points>
+            </layout>
+            <relation from="di710747132451533032" from-iid="488a24354ae443b084415f176dd3c7b3" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di508181349757604368" iid="c817fe25ae3c4dc3b524f24aeb737bbc" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1122" y1="1308" x2="-6" y2="1165" start-border-pos="0.29695987701416" end-border-pos="0.855722458298142">
+              <points>
+                <point x="-1122" y="1308" />
+                <point x="-6" y="1165" />
+              </points>
+            </layout>
+            <relation from="di742577788780127238" from-iid="0fb100d087ad486bb804a207ec71dcc8" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di876768241616700833" iid="9128a87f16c9495085d87e4d204fdfda" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1125" y1="1506" x2="-6" y2="1183" start-border-pos="0.274627113342285" end-border-pos="0.830908698004645">
+              <points>
+                <point x="-1125" y="1506" />
+                <point x="-6" y="1183" />
+              </points>
+            </layout>
+            <relation from="di291023222348737317" from-iid="b0126290440b40e289abe27b2f0823db" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di636132991368994234" iid="35774ac5071f42ccbd7bb3c5b804a99e" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1363" y1="1963" x2="-6" y2="1213" start-border-pos="0.172933063809834" end-border-pos="0.789904950116132">
+              <points>
+                <point x="-1363" y="1963" />
+                <point x="-6" y="1213" />
+              </points>
+            </layout>
+            <relation from="di727111509526204717" from-iid="9f7f1ff523c04d16af1eabf1a4abba94" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di175056125243546749" iid="ec19d40cb80c4f6b8c0aa471c1e5e39b" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1391" y1="2173" x2="-6" y2="1228" start-border-pos="0.163807096935454" end-border-pos="0.76973497545397">
+              <points>
+                <point x="-1391" y="2173" />
+                <point x="-6" y="1228" />
+              </points>
+            </layout>
+            <relation from="di640853517682343352" from-iid="3d744250776a492f842d95bbb7f47932" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di603310673939698223" iid="ea9994ede27f486894405adcd71bdb43" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1409" y1="2383" x2="-5" y2="1243" start-border-pos="0.157600322097698" end-border-pos="0.749029436152735">
+              <points>
+                <point x="-1409" y="2383" />
+                <point x="-5" y="1243" />
+              </points>
+            </layout>
+            <relation from="di911986143176561799" from-iid="8ea55a142d554229a0c4c25bbf5dbb9f" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di618148775249189793" iid="2dcceb3f47e447c5b9367e62d18b8131" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1423" y1="2593" x2="11" y2="1243" start-border-pos="0.153105195867952" end-border-pos="0.731927543491512">
+              <points>
+                <point x="-1423" y="2593" />
+                <point x="11" y="1243" />
+              </points>
+            </layout>
+            <relation from="di490265908350335668" from-iid="4c72b40b245745188ad8188674ebc238" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di439771778717644929" iid="38725298b7164ab4b33336890d161cbb" creation-date="05/28/2015 12:41:15" order-index="213" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-1435" y1="2855" x2="26" y2="1243" start-border-pos="0.148979953987889" end-border-pos="0.716232857146821">
+              <points>
+                <point x="-1435" y="2855" />
+                <point x="26" y="1243" />
+              </points>
+            </layout>
+            <relation from="di235681676120380025" from-iid="b933ec2dfd914328879aa5c0f9a9f292" to="di651406346435694510" to-iid="69e26c54fe8043119ff345a33a2ce166" to-field="a36e14c5dd74d4309b43e0e8e2b364517642" />
+          </item>
+          <item id="di369806076198028112" iid="5d6ea30cfca0438b9f6e73d1d90e719c" creation-date="06/12/2015 11:19:14" order-index="261" type="entity">
+            <layout ax="-4136" ay="-509" awidth="140" aheight="160" x="-4136" y="-509" width="140" height="160" angle="0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@color/white">
+    
+	<Button android:id="@+id/createSessionBtn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+	    android:background="@color/blue5"
+	    android:text="C"	/>
+	<Button android:id="@+id/inviteFriendBtn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+	    android:background="@color/blue1"
+	    android:text="I"	/>
+	<Button android:id="@+id/invitationBtn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+	    android:background="@color/blue2"
+	    android:text="S"	/>
+	<Button android:id="@+id/viewRecordBtn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+	    android:background="@color/blue3"
+	    android:text="R"	/>
+
+    <Button android:id="@+id/keyboardBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/blue4"
+        android:text="K"	/>
+	
+</LinearLayout>

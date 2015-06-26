@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">PitchPlayer</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="prompt">Enter Frequency\n(In Hz)</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+</resources>
